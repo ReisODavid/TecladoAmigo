@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background_tela_ini"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="35dp"
+        android:layout_weight="6"
+        android:contentDescription="@string/iconeApp"
+        android:maxHeight="150dp"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/app_final_icon" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:srcCompat="@drawable/tittle_app" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="3"
+        android:fontFamily="sans-serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/cliqueparacomecar"
+        android:textColor="@color/pressed_letter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/criadoPor"
+        android:textColor="@color/pressed_letter"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:text="@string/linkGithub"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#36B8F4"
+        android:textSize="14sp"
+        app:autoSizeTextType="none" />
+
+</LinearLayout>

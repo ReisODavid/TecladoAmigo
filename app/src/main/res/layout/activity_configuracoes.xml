@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".ActivityConfiguracoes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/QuantosSegundos"
+        android:textAllCaps="false"
+        android:textColor="#090505"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextConfiguracaoTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/TemporizadorDefault"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="#000000"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btSalvaConfigTempo"
+        style="@style/ButtonProjectStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_theme"
+        android:text="@string/Salvar" />
+
+</LinearLayout>

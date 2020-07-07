@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Teclado Amigo</string>
+    <string name="app_name_capitalize">TECLADO AMIGO</string>
+    <string name="Salvar">Salvar</string>
+    <string name="QuantosSegundos">Quantos segundos cada numero/letra deve ficar selecionável?</string>
+    <string name="TemporizadorDefault">4</string>
+    <string name="bt1">   \n 1</string>
+    <string name="bt2">ABC\n 2</string>
+    <string name="bt3">DEF\n 3</string>
+    <string name="bt4">GHI\n 4</string>
+    <string name="bt5">JKL\n 5</string>
+    <string name="bt6">MNO\n 6</string>
+    <string name="bt7">PQR\n 7</string>
+    <string name="bt8">STU\n 8</string>
+    <string name="bt9">VWX\n 9</string>
+    <string name="bt0">YZ\n 0</string>
+    <string name="btApaga">Botão\nApagar</string>
+    <string name="textonulo"> </string>
+    <string name="Configuraçao">Configuração</string>
+    <string name="cliqueparacomecar">Clique em qualquer lugar para começar</string>
+    <string name="iconeApp">Icone da tela inicial</string>
+    <string name="criadoPor">Criado com muito carinho em algum lugar de Pinda-SP. \n por David Reis, um projeto open source\n confira o código no link:</string>
+    <string name="linkGithub">www.github.com/ReisODavid/PagSeguroJavaManager</string>
+
+
+</resources>

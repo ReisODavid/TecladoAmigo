@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lilithandbelial.tecladoamigo">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_final_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_final_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lilithandbelial.tecladoamigo.ActivityPrincipal"
+                  android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name="com.lilithandbelial.tecladoamigo.ActivityConfiguracoes"
+                  android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name="com.lilithandbelial.tecladoamigo.MainActivity"
+                  android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
